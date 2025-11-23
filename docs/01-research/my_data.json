@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "status": "complete"
+  },
+  "threads": [
+    {
+      "id": 1754,
+      "title": "Password protect / lock folder / Encryption at rest",
+      "url": "https://forum.obsidian.md/t/password-protect-lock-folder-encryption-at-rest/1754",
+      "date": "2020-06-13T10:39:16.447Z",
+      "views": 0,
+      "replies": 121,
+      "full_text": "Hi, Didnt find it but it would be cool to password protect note or folder, or lock it somehow so that is available only after entering pass.",
+      "likes": 0
+    },
+    {
+      "id": 7544,
+      "title": "Security of the plugins",
+      "url": "https://forum.obsidian.md/t/security-of-the-plugins/7544",
+      "date": "2020-10-25T02:07:59.482Z",
+      "views": 0,
+      "replies": 121,
+      "full_text": "Security1000\u00d7600 206 KB I don\u2019t know if Obsidan dev have think about that, but when the Obsidian plugins will open to public there will be: many noble developers as well as many who want to take advantage of the user data. As the core philosophy of Obsidian hovering around: The user is in charge of his data Data that are locally stored User data are not stored on server or cloud User data are processed locally Obsidian works offline and locally I can guarantee that there will be a huge amount of plugins &amp; many that plugins will use advantage of non existing security check by Obsidian devs. The Obsidian devs should ensure that privacy and security of the data will be not compromised by installing users plugins. This cannot be outsource to the normal user\u2026or simply just give warning: \"this plugin may be security\u2026bla bla\u2026 If the Obsidian should be secure database after releasing the plugins support, it is the Obsidan devs jobs to protect the users data. This can be archive in various way. Bear in mind that normal user have no option to check what the plugin is really doing! thus installing it is just matter of trust\u2026 this should be huge security concern for Obsidan devs. As I believe the Obsidian want to be around long time. For this I\u2019m writing some proposals: Official channel should be created with fixed template where developers can upload the plugins All other ways to install plugins should be closed (for now) Strict &amp; mandatory information must be filled by developer (like image, compactibility, atd) Security checklist (made by obsidian devs) that developer must check what kind of access the plugin have Obsidian devs should have fully automated routine that will install the plugin when neew update to the app is made, and check if app can access: camera, read / write outside of vault, microphone access, atc\u2026) - the devs should not really on information provided by developer regarding the security If the checklist made by developer and the information form security check by Obsidian script differ a lot, maybe even ban of the developer may be consider, as the developer concisely lie the user Appsecurity1300\u00d71032 417 KB From \u201cautomated security audit\u201d the PRIVACY SCORE should be generated Each update of the plugin the \u201cautomated security audit\u201d should be executed and if something has change the PRIVACY SCORE should change accordingly. User can add comments to plugin 1. I would like to openly ask the devs what is your thoughts on this? and what is your 1,2,3 plan to ensure that Obsidian will be secure after the plugins support. 2. I would like to invite other users to discuss and add your other proposals regarding the security and plugins, we should find solution for this before the plugin support is released",
+      "likes": 0
+    },
+    {
+      "id": 1445,
+      "title": "One vault vs multiple vaults",
+      "url": "https://forum.obsidian.md/t/one-vault-vs-multiple-vaults/1445",
+      "date": "2020-06-08T10:39:38.145Z",
+      "views": 0,
+      "replies": 86,
+      "full_text": "What\u2019s the design philosophy behind Obsidian having the option to have vaults? From what I gather, vaults have separate preferences for styling for instance and they allow separate directories to be used for file attachments. What I am curious about is what is the concept of the vault as envisioned by the developers here and what workflow is it designing with in mind? One obvious way to use it is to use separate vaults for separate projects but then why not just use folders for that purpose in case there\u2019s linking possibilities between all of them? Speaking in terms of PKM or more appropriately building a second brain, our brain links every thought with every other things without caring much for categories like, Project A or B, or work or personal, etc. So in that case, an argument can be made using just one vault for everything. The Zettelkasten approach also encourages this and although I am new to the concept, I\u2019ve mostly seen advice to avoid using subfolders even. So, what\u2019s your workflow with regards to vaults in Obsidian, whether you follow zettelkasten or not? Do you use one vault or many? What are the pros and cons?",
+      "likes": 0
+    },
+    {
+      "id": 56014,
+      "title": "AI Assisted Search / Q&A / Chatbot / Text Generation",
+      "url": "https://forum.obsidian.md/t/ai-assisted-search-q-a-chatbot-text-generation/56014",
+      "date": "2022-04-13T12:05:02.890Z",
+      "views": 0,
+      "replies": 68,
+      "full_text": "I absolutely love this idea - it would really make the idea of a \u201csecond brain\u201d more intuitive to use. While AI-powered connections would be interesting, I\u2019d like to have AI &amp; NLP-powered search. In this way, one could search / ask Obsidian things like: \u201cWhat did I do last year in December\u201d =&gt; and it shows a summary of my daily notes and important documents I created \u201cWhat are different ways of scaling Scrum?\u201d =&gt; and Obsidian looks through my markdown notes to pull out the results that answer this",
+      "likes": 0
+    },
+    {
+      "id": 5010,
+      "title": "Using Hypothes.is to quickly place notes into my digital notebook",
+      "url": "https://forum.obsidian.md/t/using-hypothes-is-to-quickly-place-notes-into-my-digital-notebook/5010",
+      "date": "2020-08-29T18:08:00.073Z",
+      "views": 0,
+      "replies": 28,
+      "full_text": "This could also be categorized as a feature request/plugin idea, but has an immediately useful hack at the bottom. (Originally posted to my own commonplace book at https://boffosocko.com/2020/08/29/a-note-taking-problem-and-a-proposed-solution/) tl;dr: It\u2019s too painful to quickly get frequent notes into note taking and related platforms. Hypothes.is has an open API and a great UI that can be leveraged to simplify note taking processes. Note taking tools I\u2019ve been keeping notes in systems like OneNote and Evernote for ages, but for my memory-related research and work in combination with my commonplace book for the last year, I\u2019ve been alternately using TiddlyWiki (with TiddlyBlink) and WordPress (it\u2019s way more than a blog.) I\u2019ve also dabbled significantly enough with related systems like Roam Research, Obsidian, Org mode/Org Roam, MediaWiki, DocuWiki, and many others to know what I\u2019m looking for. Many of these, particularly those that can be used alternately as commonplace books and zettelkasten appeal to me greatly when they include the idea of backlinks. (I\u2019ve been using Webmention to leverage that functionality in WordPress settings, and MediaWiki gives it grudgingly with the \u201cwhat links to this page\u201d basic functionality that can be leveraged into better transclusion if necessary.) The major problem with most note taking tools The final remaining problem I\u2019ve found with almost all of these platforms is being able to quickly and easily get data into them so that I can work with or manipulate it. For me the worst part of note taking is the actual taking of notes. Once I\u2019ve got them, I can do some generally useful things with them\u2014it\u2019s literally the physical method of getting data from a web page, book, or other platform into the actual digital notebook that is the most painful, mindless, and useless thing for me. Evernote and OneNote Older note taking services like Evernote and OneNote come with browser bookmarklets or mobile share functionality that make taking notes and extracting data from web sources simple and straightforward. Then once the data is in your notebook you can actually do some work with it. Sadly neither of these services has the backlinking functionality that I find has become de rigueur for my note taking or knowledge wrangling needs. WordPress My WordPress solutions are pretty well set since that workflow is entirely web-based and because WordPress has both bookmarklet and Micropub support. There I\u2019m primarily using a variety of feeds and services to format data into a usable form that I can use to ping my Micropub endpoint. The Micropub plugin handles the post and most of the meta data I care about. It would be great if other web services had support for Micropub this way too, as I could see some massive benefits to MediaWiki, Roam Research, and TiddlyWiki if they had this sort of support. The idea of Micropub has such great potential for great user interfaces. I could also see many of these services modifying projects like Omnibear to extend themselves to create highlighting (quoting) and annotating functionality with a browser extension. With this said, I\u2019m finding that the user interface piece that I\u2019m missing for almost all of these note taking tools is raw data collection . I\u2019m not the sort of person whose learning style (or memory) is benefited by writing or typing out notes into my notebooks. I\u2019d far rather just have it magically happen. Even copying and pasting data from a web browser into my digital notebook is a painful and annoying process, especially when you\u2019re reading and collecting/curating as many notes as I tend to. I\u2019d rather be able to highlight, type some thoughts and have it appear in my notebook. This would prevent the flow of my reading, thinking, and short annotations from being subverted by the note collection process. Different modalities for content consumption and note taking Based on my general experience there are only a handful of different spaces where I\u2019m typically making notes. Reading online A large portion of my reading these days is done in online settings. From newspapers, magazines, journal articles and more, I\u2019m usually reading them online and taking notes from them there. .pdf texts Some texts I want to read (often books and journal articles) only live in .pdf form. While reading them in an app-specific setting has previously been my preference, I\u2019ve taken to reading them from within browsers. I\u2019ll explain why in just a moment, but it has to do with a tool that treats this method the same as the general online modality. I\u2019ll note that most of the .pdf specific apps have dreadful data export\u2014if any. Reading e-books (Kindle, e-readers, etc.) If it\u2019s not online or in .pdf format, I\u2019m usually reading books within a Kindle or other e-reading device. These are usually fairly easy to add highlights, annotations, and notes to. While there are some paid apps that can extract these notes, I don\u2019t find it too difficult to find the raw file and cut and paste the data into my notebook of choice. Once there, going through my notes, reformatting them (if necessary), tagging them and expanding on them is not only relatively straightforward, but it also serves as a simple method for doing a first pass of spaced repetition and review for better long term recall. Lectures Naturally taking notes from live lectures, audiobooks, and other spoken events occurs, but more often in these cases, I\u2019m typically able to type them directly into my notebook of preference or I\u2019m using something like my digital Livescribe pen for notes which get converted by OCR and are easy enough to convert in bulk into a digital notebook. I won\u2019t belabor this part further, though if others have quick methods, I\u2019d love to hear them. Physical books While I love a physical book 10x more than the next 100 people, I\u2019ve been trying to stay away from them because I find that though they\u2019re easy to highlight, underline, and annotate the margins, it takes too much time and effort (generally useless for memory purposes for me) to transfer these notes into a digital notebook setting. And after all, it\u2019s the time saving piece I\u2019m after here, so my preference is to read in some digital format if at all possible. A potential solution for most of these modalities For several years now, I\u2019ve been enamored of the online Hypothes.is annotation tool. It\u2019s open source, allows me reasonable access to my data from the (free) hosted version, and has a simple, beautiful, and fast process for bookmarking, highlighting, and annotating online texts on desktop and mobile. It works exceptionally well for both web pages and when reading .pdf texts within a browser window. I\u2019ve used it daily to make several thousand annotations on 800+ online web pages and documents. I\u2019m not sure how I managed without it before. It\u2019s the note taking tool I wished I\u2019d always had. It\u2019s a fun and welcome part of my daily life. It does exactly what I want it to and generally stays out of the way otherwise. I love it and recommend it unreservedly. It\u2019s helped me to think more deeply and interact more directly with countless texts. When reading on desktop or mobile platforms, it\u2019s very simple to tap a browser extension and have all their functionality immediately available. I can quickly highlight a section of a text and their UI pops open to allow me to annotate, tag it, and publish. I feel like it\u2019s even faster than posting something to Twitter. It is fantastically elegant. The one problem I have with it is that while it\u2019s great for collecting and aggregating my note data into my Hypothes.is account, there\u2019s not much I can do with it once it\u2019s there. It\u2019s missing the notebook functionality some of these other services provide. I wish I could plug all my annotation and highlight content into spaced repetition systems or move it around and modify it within a notebook where it might be more interactive and cross linked for the long term. Sadly I don\u2019t think that any of this sort of functionality is on Hypothes.is\u2019 roadmap any time soon. There is some great news however! Hypothes.is is open source and has a reasonable API. This portends some exciting things! This means that any of these wiki, zettelkasten, note taking, or spaced repetition services could leverage the UI for collecting data and pipe it into their interfaces for direct use. As an example, what if I could quickly tell Obsidian to import all my pre-existing and future Hypothes.is data directly into my Obsidian vault for manipulating as notes? (And wouldn\u2019t you know, the small atomic notes I get by highlighting and annotating are just the sort that one would like in a zettelkasten!) What if I could pick and choose specific course-related data from my reading and note taking in Hypothes.is (perhaps by tag or group) for import into Anki to quickly create some flash cards for spaced repetition review? For me, this combination would be my dream application! These small pieces, loosely joined can provide some awesome opportunities for knowledge workers, students, researchers, and others. The education focused direction that Hypothes.is, many of these note taking platforms, and spaced repetition systems are all facing positions them to make a super-product that we all want and need. An experiment So today, as a somewhat limited experiment, I played around with my Hypothes.is atom feed (https://hypothes.is/stream.atom?user=chrisaldrich, because you know you want to subscribe to this) and piped it into IFTTT. Each post creates a new document in a OneDrive file which I can convert to a markdown .md file that can be picked up by my Obsidian client. While I can\u2019t easily get the tags the way I\u2019d like (because they\u2019re not included in the feed) and the formatting is incredibly close, but not quite there, the result is actually quite nice. Since I can \u201cdrop\u201d all my new notes into a particular folder, I can easily process them all at a later date/time if necessary. In fact, I find that the fact that I might want to revisit all my notes to do quick tweaks or adding links or additional thoughts provides the added benefit of a first round of spaced repetition for the notes I took. Some notes may end up being deleted or reshuffled, but one thing is clear: I\u2019ve never been able to so simply highlight, annotate, and take notes on documents online and get them into my notebook so quickly. And when I want to do something with them, there they are, already sitting in my notebook for manipulation, cross-linking, spaced repetition, and review. So if the developers of any of these platforms are paying attention, I (and I\u2019m sure others) really can\u2019t wait for plugin integrations using the full power of the Hypothes.is API that allow us to all leverage Hypothes.is\u2019 user interface to make our workflows seamlessly simple.",
+      "likes": 0
+    },
+    {
+      "id": 62768,
+      "title": "Native Flashcard Feature: Enhancing Knowledge Acquisition and Retention / Spaced Repetition",
+      "url": "https://forum.obsidian.md/t/native-flashcard-feature-enhancing-knowledge-acquisition-and-retention-spaced-repetition/62768",
+      "date": "2023-07-08T13:44:20.962Z",
+      "views": 0,
+      "replies": 27,
+      "full_text": "Dear Obsidian Development Team, I trust this message finds you well. I am a committed user of Obsidian and have found immense value in the power and flexibility of your platform. Thank you for your continued commitment to innovation and for your dedication to enhancing user experience through regular updates and upgrades. Today, I am writing to propose a feature enhancement that, I believe, could greatly benefit users in their pursuit of knowledge. I would like to suggest the incorporation of a native flashcard feature into the Obsidian app, akin to the functionality provided by platforms such as Remnote. Flashcards have proven to be a simple yet extremely powerful tool for knowledge acquisition and retention. They are particularly useful for breaking down complex subjects into smaller, more digestible units of information, and for enabling repetitive and active recall, both of which are key to long-term memory formation. As such, a built-in flashcard function would be a valuable addition to Obsidian, complementing the current note-taking and knowledge management features wonderfully. I envisage this feature to be capable of generating flashcards directly from notes and PDFs, with the ability to include links for deeper exploration of subjects. This would be a boon to researchers, students, and lifelong learners alike, enhancing their ability to learn, remember, and connect information. Moreover, I would like to consider the possibility of a cooperative effort with the Anki team. Anki\u2019s spaced repetition system is highly effective and well-regarded in the educational tech industry. By incorporating Anki\u2019s tried-and-tested learning methodology into Obsidian, users could benefit from an optimal learning strategy within a platform they are already familiar with. I understand that introducing such a feature would require significant resources and development time. Yet, given the potentially immense benefits to the user base, I believe it would be a worthy investment. The addition of a native flashcard system would only enhance Obsidian\u2019s reputation as a leading tool for knowledge management and self-directed learning. Thank you for considering this suggestion. I, along with many other Obsidian users, would greatly appreciate this enhancement, and we look forward to seeing how Obsidian continues to evolve in service of its mission to facilitate knowledge creation and discovery. Best Regards, Samb",
+      "likes": 0
+    },
+    {
+      "id": 46240,
+      "title": "Backlinks and Search - Display Information based on hierarchical document structure (bullet list level or enclosing header breadcrumbs)",
+      "url": "https://forum.obsidian.md/t/backlinks-and-search-display-information-based-on-hierarchical-document-structure-bullet-list-level-or-enclosing-header-breadcrumbs/46240",
+      "date": "2022-10-26T18:02:58.538Z",
+      "views": 0,
+      "replies": 27,
+      "full_text": "When a wikilink is present in a line item of a bullet list, the corresponding entry in the backlinks pane is just that line item, If \u201cshow more context\u201d is active, the children are shown. It would be nice to provide more/better context for that line item. In particular, outliner-based products show the parent item too.",
+      "likes": 0
+    },
+    {
+      "id": 29660,
+      "title": "Improve single file find (search) by adding selection, casing, whole-word, regexp",
+      "url": "https://forum.obsidian.md/t/improve-single-file-find-search-by-adding-selection-casing-whole-word-regexp/29660",
+      "date": "2022-01-01T02:28:47.093Z",
+      "views": 0,
+      "replies": 24,
+      "full_text": "It would be nice if the local (single) file search was improved to support: selection: search only in selected text word case: sensitive or insensitive whole word match or not regexp: \u2026 Some of these are currently covered by plugins.",
+      "likes": 0
+    },
+    {
+      "id": 56391,
+      "title": "\ud83d\ude80 Introducing Smart Chat: A Game-Changer for Your Obsidian Notes (Smart Connections Plugin)",
+      "url": "https://forum.obsidian.md/t/introducing-smart-chat-a-game-changer-for-your-obsidian-notes-smart-connections-plugin/56391",
+      "date": "2023-03-15T16:15:07.601Z",
+      "views": 0,
+      "replies": 20,
+      "full_text": "Hey Fellow Obsidian Enthusiast! I\u2019m thrilled to share a groundbreaking new feature within the Smart Connections plugin: Smart Chat! With Smart Chat, your Obsidian notes become interactive, AI-powered conversations that help you engage with your content. Imagine having an AI assistant that helps you explore connections between your ideas and clarifies your understanding of complex topics. Smart Chat is available right now as part of the Smart Connections plugin. Curious to learn more? Head over to my latest blog post, where I dive into the benefits of Smart Chat, the technology behind it, and tips for getting the most out of this fantastic feature. WFH Brian \u2013 15 Mar 23 Introducing Smart Chat: Transform Your Obsidian Notes into Interactive... Hey there, fellow Obsidian users! I'm excited to introduce you to Smart Chat, an amazing new feature of Smart Connections that will revolutionize how you I can\u2019t wait for you to experience the power of Smart Chat! As always, I\u2019d love to hear your feedback and suggestions. Give it a try, and let me know what you think! Happy chatting!",
+      "likes": 0
+    },
+    {
+      "id": 44090,
+      "title": "Sudden Black screen in one obsidian vault",
+      "url": "https://forum.obsidian.md/t/sudden-black-screen-in-one-obsidian-vault/44090",
+      "date": "2022-09-27T19:22:56.746Z",
+      "views": 0,
+      "replies": 19,
+      "full_text": "Things I have tried I tried reading all the posts about black screens. None really were helpful, perhaps becasue I\u2019m pretty new to Obsidian (1 month appx). I searched all the possible comments in the Forum and did move the screen around as was suggested but nothing gave me any changes to the pure black screen. No commands are visible. I looked into saved obsidian files in dropbox and on my computer and everything appears to still be there, except everything that i input into this Obsidian vault/files cannot seem to be accessed. Thanks for any assistance. What I\u2019m trying to do I searched all the possible comments in the Forum and did move the screen around as was suggested but nothing gave me any changes to the pure black screen. No commands are visible. I looked into saved obsidian files in dropbox and on my computer and everything appears to still be there, except everything that i input into this Obsidian vault/files cannot seem to be accessed. Thanks for any assistance. What I\u2019m trying to do",
+      "likes": 0
+    },
+    {
+      "id": 53756,
+      "title": "Khoj: An AI powered Search Assistant for you Second Brain",
+      "url": "https://forum.obsidian.md/t/khoj-an-ai-powered-search-assistant-for-you-second-brain/53756",
+      "date": "2023-02-04T14:57:42.515Z",
+      "views": 0,
+      "replies": 15,
+      "full_text": "Overview: Khoj is a fast, private, AI powered search assistant for Obsidian Background: The Khoj Obsidian plugin just got added to the Community Plugins store. I wanted to share this with the Obsidian community for feedback and testing. I\u2019ve been (developing and) using Khoj for more than a year now. It\u2019s fast and accurate enough that I now almost exclusively use this to search through my (120K+ lines of org-mode) notes. Hopefully some of you folks find it useful too Features: Use natural language to privately explore your markdown notes in Obsidian. Includes Incremental Search and Find Similar Notes capability Quickstart Install &amp; Start Khoj Backend: pip install khoj-assistant &amp;&amp; khoj --no-gui Install the Khoj Obsidian Plugin in your Obsidian Vault Open Khoj: Search from the Obsidian Command Palette and type your query to search through markdown content in your Obsidian vault Resources Khoj Obsidian Docs {Github} Khoj Docs {Github} Install, Use Demo",
+      "likes": 0
+    },
+    {
+      "id": 24122,
+      "title": "\ud83d\udc0d obsidiantools: Python package for doing advanced analytics of your vault",
+      "url": "https://forum.obsidian.md/t/obsidiantools-python-package-for-doing-advanced-analytics-of-your-vault/24122",
+      "date": "2021-09-13T20:31:02.879Z",
+      "views": 0,
+      "replies": 15,
+      "full_text": "obsidiantools Hi all, I\u2019ve released a Python package called obsidiantools, available now through PyPI. obsidiantools is built upon common libraries in the Python data stack, like Pandas and NetworkX, to enable you to do advanced analytics of your vault and notes. Check out the Github repo: GitHub GitHub - mfarragher/obsidiantools: Obsidian tools - a Python package for... Obsidian tools - a Python package for analysing an Obsidian.md vault - GitHub - mfarragher/obsidiantools: Obsidian tools - a Python package for analysing an Obsidian.md vault I am not a software engineer who does JavaScript or TypeScript - if someone wants to collab on integrating this package into an Obsidian plugin I\u2019d be interested in exploring that! Getting started In your Python environment, run pip install obsidiantools. Check out the README for more detail on API usage. It\u2019s incredibly simple. Demo See the functionality through a virtual Binder environment here: Key features This is how obsidiantools can complement your workflows for note-taking: Access a networkx graph of your vault (vault.graph) Get summary stats about your notes, e.g. number of backlinks and wikilinks, in a Pandas dataframe Get the dataframe via vault.get_note_metadata() Retrieve detail about your notes\u2019 links as built-in Python types The various types of links: Wikilinks (incl. header links, links with alt text) Backlinks You can access all the links in one place, or you can load them for an individual note: e.g. vault.backlinks_index for all backlinks in the vault e.g. vault.get_backlinks(&lt;NOTE&gt;) for the backlinks of an individual note Check which notes are isolated (vault.isolated_notes) Check which notes do not exist as files yet (vault.nonexistent_notes) Using obsidiantools in your note-taking workflow Through obsidiantools you can recreate your vault\u2019s graph via NetworkX and I\u2019ve shown a basic graph in the demo. NetworkX graphs are no replacement for the Obsidian app\u2019s graphing capabilities! For a start, the app is interactive and NetworkX has limited customisation options. Where NetworkX graphs really complement workflows are through: Having a graph structured in Python\u2019s most popular network analysis graph. Processing the graph into a summary Pandas dataframe. Being able to use the advanced capabilities of the library, e.g. doing deep dive analysis on subgraphs of your vault, applying algorithms to your vault (such as PageRank). Especially in large vaults, these capabilities can enable you to narrow down which notes you want to focus on. Images A basic chart I made with Matplotlib to mirror the Obsidian vault graph (\u2018nonexistent\u2019 notes are greyed out): demo-vault-networkx-graph739\u00d7410 43.4 KB As you can see from the chart there\u2019s one note that is isolated: dataframe df sorted by number of backlinks: get-note-metadata-sorted927\u00d7384 10.5 KB PageRank values of notes (via NetworkX graph): Future development I will use the Github repo for the project development. I won\u2019t have much time for the rest of the year for development but welcome ideas, pull requests etc. I have tested the functionality on my own vaults of up to 100 notes but interested to see in how other people\u2019s vaults fare with the package. The key things I\u2019d like to do in future are: More functionality for Zettelkasten vault formats. e.g. neat way to parse any timestamps from note filenames and integrate in the dataframe. More metadata columns in dataframe: e.g. created time, could be useful here. Not supported for Linux though (need to think about design, tests etc.). metadata on the text e.g. word counts. Bring the md file readers into the main API. I\u2019m not sure how the parsing works for non-Latin text currently and whether more config is needed. If the parsing works well e.g. for Chinese then it would be great to bring it in. Bring markdown link counts into the API. Expand documentation for network analysis, e.g. code snippets on different centrality measures. Expand to include basic NLP analysis if supporting md files in the main API.",
+      "likes": 0
+    },
+    {
+      "id": 93020,
+      "title": "Obsidian - RAG - personal AI bot",
+      "url": "https://forum.obsidian.md/t/obsidian-rag-personal-ai-bot/93020",
+      "date": "2024-12-11T07:57:50.074Z",
+      "views": 0,
+      "replies": 10,
+      "full_text": "Hey everyone, I\u2019ve been thinking about a personal project that I might build for myself, and I have a feeling that some of you might find it interesting as well. The idea is to create an Obsidian plugin that seamlessly integrates a Retrieval-Augmented Generation (RAG) workflow. Essentially, whenever you update or create notes in Obsidian, the plugin would automatically chunk and embed them into a vector database. Then, by connecting to the OpenAI API (or another LLM provider), you\u2019d be able to ask questions directly inside Obsidian and get responses that are enriched with the context of your own notes. Imagine having your entire knowledge base at your fingertips in a conversational format\u2014no more switching tools, manually copying text, or struggling to recall where you stored that bit of crucial information. I\u2019m planning to start working on this in 2025, but before diving in, I\u2019d love to hear your thoughts. What features or functionalities would you find most valuable? How would you envision using such a tool in your daily workflow? Are there any pitfalls or potential improvements you can think of right away? Your input will help shape the early stages of development, so feel free to share any ideas, critiques, or suggestions you might have. Thanks in advance!",
+      "likes": 0
+    },
+    {
+      "id": 79689,
+      "title": "Plugin Release: Smart Second Brain - Local AI Assistant",
+      "url": "https://forum.obsidian.md/t/plugin-release-smart-second-brain-local-ai-assistant/79689",
+      "date": "2024-04-02T12:08:10.715Z",
+      "views": 0,
+      "replies": 10,
+      "full_text": "After many months of work, we think our plugin has reached a state where we can proudly announce and share it with you. We call it your \u201cSmart Second Brain\u201d (S2B). Smart Second Brain (S2B) offers a LOCAL AI Assistant for your Obsidian vault. With S2B you can interact with your notes and query your knowledge. And all of that is completely local and offline. Leveraging our AI assistant turns your Obsidian vault into a smart second brain. Features Chat with your Notes and get links to your Notes where the knowledge was taken from Example query: \u201cPlease summarise my notes from my uni course on AI\u201d Choose ANY preferred Large Language Model (LLM) and quickly and comfortably switch between LLMs to adapt to different tasks Use local LLMs or OpenAI\u2019s ChatGPT This is your chance to trust AI with your sensitive data and leverage its capabilities on your Obsidian notes without having to use third-party services like OpenAI\u2019s ChatGPT. If you want to stay up to date on our last change logs and future features we invite you to look at our GitHub repo. Download the plugin here! image3104\u00d71974 533 KB",
+      "likes": 0
+    },
+    {
+      "id": 62556,
+      "title": "Exclude private notes from search during work",
+      "url": "https://forum.obsidian.md/t/exclude-private-notes-from-search-during-work/62556",
+      "date": "2023-07-03T19:19:18.564Z",
+      "views": 0,
+      "replies": 10,
+      "full_text": "Hi, I am using only one vault for work and private notes, but I do have them separated in different folders. When I\u2019m at work, and searching some work-related file in Obsidian and a colleague is sitting next to me, I\u2019d like to have private files excluded from search results. Under settings \u2192 Files &amp; Links \u2192 Excluded files it is possible to do exactly that, but it is kind of uncomfortable to go every day before work into the settings and exclude the private-folder\u2026 How do you deal with that issue?",
+      "likes": 0
+    },
+    {
+      "id": 102072,
+      "title": "[Help needed for testing] Global Search/Replace - Copy Search Results for Lines, Full File Content of All Results and More",
+      "url": "https://forum.obsidian.md/t/help-needed-for-testing-global-search-replace-copy-search-results-for-lines-full-file-content-of-all-results-and-more/102072",
+      "date": "2025-06-19T21:00:27.744Z",
+      "views": 0,
+      "replies": 10,
+      "full_text": "Hey folks, When I first alluded to a script like this, I had fuse.js leveraging Obsidian Query Language as my search engine for the script. I said there that I didn\u2019t want to share the script with that plugin as overhead: more plugins need to be installed, no regex support in fuse.js, and extra layer of vault content cache all combined to keep me from sharing what I was creating. A second thing that kept me from sharing was this: I\u2019m not a developer. I prompt bots to get what I need. Yes, some coding savvy and some perseverance are indeed needed to tell the bots what you need and discard what you obviously don\u2019t need, know when to take over the bot or start a new chat session, etc. All I\u2019m saying is that I\u2019ve put this together for my own needs. But\u2026 \u2026I decided to share it after all, because\u2026 \u2026there is no functionality (that I know of) available at the moment to copy search results based on searches\u2026 The script does modify file content is when we try to Copy Links or Embeds where no block ID\u2019s were on lines (you can only do this individually anyway). The script adds a randomly generated Obsidian standard blockID and based on content adds a necessary line afterward or not. That\u2019s the only thing it does in the way of modifying. You don\u2019t need to use that functionality. It\u2019s just something I\u2019ve added along the way. By the way, I didn\u2019t allow adding blockID\u2019s to footnotes, only main body lines. You\u2019ll see a notice regarding this. I\u2019ve taken care to use only Obsidian API functionality in the script. No custom constructs are employed. We can thank 2025 bots for this as my main source of inspiration has been the forum, not Obsidian API docs. A word to power users: copying content of thousands of results is possible, but may be slow or cause UI lag in Obsidian or your OS. So use the script reasonably, especially on mobile. Finally, on what search method has been implemented and how it works, especially on mobile: The script uses app.vault.cachedRead(); it leverages Obsidian\u2019s existing, optimized cache, but as with the normal Obsidian core search, you need to search once to populate the cache. If you search with a property field filter and some search term first, that\u2019s not going to cut it, meaning a second search after this will still take long because not all markdown content has been cached in. So on mobile especially, make sure you search in the core modal first or if you search with this script, allow plenty of time to have the results come in. A second search will be now very fast, just as in the core modal. Vault Search Extended Guide A user-friendly search and batch copy tool for your Obsidian vault. Find, filter, and copy results (lines or full file content) with a sleek, responsive modal. Prerequisites &amp; Setup Obsidian app (of course!) CodeScript Toolkit plugin by @mnaoumov. Install from Community Plugins. In the plugin\u2019s settings, specify the folder where you\u2019ll put your .ts scripts (e.g., SYSTEM/TEMPLATE/CODE/user_scripts/codescript_toolkit_scripts/custom). Download &amp; Unzip Download Vault-Search-Extended.ts (see provided zip file). Unzip and place the .ts file in your CodeScript Toolkit scripts folder. Zip: Removed Configuration No config changes are required for basic use! If you want to exclude certain folders from search, edit the excludedFolders array at the top of the script. All modal sizing and filter settings are in the CONFIG section, but defaults are sensible for most users. To get more out of the script, what you still need to do is edit the .ts file in order to add your custom properties. You can even do this in any editor while Obsidian is open. I\u2019ve only added dates and a status property for you to see the syntax used, but even the date property field may not be correct, as I use snake_case, and your property for dates may not be this exact same format. You\u2019ll need to change it and add your own props. You can add as many as you want. How to Use Run the script from the command palette or your preferred method, be it a shortcut combination you set. Search Modal: Enter your search (supports regex; more on that below). Use filter tabs to narrow by frontmatter properties you specified in CONFIG (e.g., author, date). Sort your results in ways you want: again, if it\u2019s custom dates, you need to add them in CONFIG as I did (again, for you to see the structure). See your recent searches for quick access (specify file name in CONFIG). Results Modal: Copy mode: At the top, choose what \u201cCopy all results\u201d will do: Matching lines only: Just the lines that matched. File content no YAML: Full file content, but YAML frontmatter is stripped. File content w/ YAML: Full file content, including YAML. Filter results: Use the filter box to further narrow results (supports regex). When you filter only the line or file content based on the filter will be copied to the clipboard. Copy all results: Copies all visible results according to your selected mode. To Results: Opens all matching files at the relevant line. Copy/Copy Link/Copy Embed: Copy a single result (line) or its block link with or without the embed ! character. Copy Link and Copy Embed function as Create+Copy Link/Embed when no blockID was found on the line. There are rules for this: I have tried to go into all uses cases and determined this should suffice. If you want to make absolutely sure the blockID-packing link works, paste it embed fashion in some markdown file to see if it works. Example Workflow Run the script. Search for cat|dog to find all lines with \u201ccat\u201d or \u201cdog\u201d. Filter by author or date or whatever you set from your property fields, if needed. In the results modal, select \u201cFile content no YAML\u201d and click \u201cCopy all results\u201d to get clean markdown for workflows like RStudio, Pandoc, or any Markdown-to-LaTeX pipeline. \ud83d\udd0e Regex Search Tips (click to expand!) The script uses case insensitive searches and does not cater to word boundaries. Regex results will find results based on \u2018contains\u2019, so if you enter \u2018dog,\u2019 you\u2019ll get results for dog, Doglas, doggie, etc. OR: Use the pipe symbol | to match either term. cat|dog \u2192 lines containing \u201ccat\u201d OR \u201cdog\u201d AND: Use .*? between terms to require both (in order). cat.*?dog \u2192 lines containing \u201ccat\u201d followed by \u201cdog\u201d AND (any order): (?=.*cat)(?=.*dog) \u2192 lines containing BOTH \u201ccat\u201d AND \u201cdog\u201d (any order) \u2013 this is quite slow on large vaults and did not develop highlighting for these cases Grouping: (cat|dog).*?jaguar \u2192 lines with \u201ccat\u201d OR \u201cdog\u201d, followed by \u201cjaguar\u201d You can use any valid JavaScript regex! Features Responsive, mobile-friendly modals Batch open all results at the right line Copy block links for precise referencing Search history for quick repeat queries Formerly used term will be brought up in recents when used again. Filter by frontmatter properties you set What it looks like What it does Try it. Edit the CONFIG with your props. Copy away. You can see what you get on your clipboard. I tried to make all functionality as intuitive as possible. BTW, it is the filename above the results line you need to click to be taken to the line in the file. I tried to override Remember Cursor Position plugin positions but it may not be perfect for all cases. Questions or Feedback? Reply here. If you find a bug, let me know. Headsup I\u2019ve seen lately two posts where users looked for similar functionality. One was here. There may have been at least 4-5 cases in the past where people wanted this functionality. A moderator listed posts about the requests and currently available methods here. The script can be useful to tackle this problem, @Sunnaq445. Try it on mobile. See in CONFIG about corrent results limits set at 500. Which means don\u2019t search for general terms like work but work.*?New York or something like that. You can try to increase 500 to 5000 of course and see if your device can handle it. Edits 200625: Fixed a bug when no search results were found the Search Modal stayed open and a subsequent search was not initiated. Modal now closes and you need to fire script again. If you downloaded script before, you need to re-download again and re-add your config details again. Also, some automatic linting made the script not work on mobile. Fixed. Apologies. Also, fixed escaping special characters when you have text selected and run the script. Yes, you can have selected and run the command and have the search term added automatically. Escaping is for regex functionality so double square brackets, alias pipes, and blockID carets are escaped when copying lines with wikilinks. 250625: Edited out parts as only dual Search/Replace version available to download now. See further down.",
+      "likes": 0
+    },
+    {
+      "id": 77319,
+      "title": "Tracing backlinks through a specific note structure",
+      "url": "https://forum.obsidian.md/t/tracing-backlinks-through-a-specific-note-structure/77319",
+      "date": "2024-02-22T02:44:40.976Z",
+      "views": 0,
+      "replies": 8,
+      "full_text": "What I\u2019m trying to do Screenshot from 2024-02-21 21-10-101466\u00d7733 37.5 KB I have a set of Notion-like databases that have been set up with the DB Folder and Dataview plugins. The databases have relation columns connecting them as illustrated in the picture. Each relation is bidirectional but the picture illustrates the workflow. I want to set up a template for entries in the Summary database where all of the backlinked books, newspapers, and blogs are listed. Things I have tried The workflow is static at the moment, so I began by exploring how to search through each set of Details databases one-by-one. I found that this dataviewjs code can be adapted to list the backlinked entries from any single Details database that are directly linked to a Summary database entry: let summaryLinks = dv.current().file.inlinks; let summaryDetailsOne = summaryLinks.filter(summaryLinks =&gt; summaryLinks.path.split('/').includes(\"Details Database #1\")); dv.list(summaryDetailsOne); However, I don\u2019t know how to search through the backlinks for entries in the new list. This approach for listing the second-order backlinks did not work: dv.list(dv.summaryDetailsOne.file.inlinks); So I looked around and found a few threads with similar goals (e.g. here, here, and here). I was pointed toward a similar goal in the dataview documentation by dwuw\u2019s thread. That now has me working on this code that I\u2019ve adapted from the documentation: let page = dv.current().file.path; let pages = new Set(); let stack = [page]; while (stack.length &gt; 0) { let elem = stack.pop(); let meta = dv.page(elem); if (!meta) continue; for (let inlink of meta.file.inlinks.array()) { if (pages.has(inlink.path)) continue; if ( pages.path.split('/').includes(\"Database details #4\") || pages.path.split('/').includes(\"Database details #3\") || pages.path.split('/').includes(\"Database details #2\") || pages.path.split('/').includes(\"Database details #1\") || pages.path.split('/').includes(\"Content database\") || pages.path.split('/').includes(\"Books database\") || pages.path.split('/').includes(\"Newspaper database\") || pages.path.split('/').includes(\"Blog database\") ) continue; if( pages.path.split('/').includes(\"Books database\") || pages.path.split('/').includes(\"Newspaper database\") || pages.path.split('/').includes(\"Blog database\") ) pages.add(inlink.path); stack.push(inlink.path); } } let data = dv.array(Array.from(pages)).map(p =&gt; dv.page(p)); dv.list(data.name) I found that the original code in the documentation was causing Obsidian to freeze, so I tried focusing the backlinks search to specific folders. But my use of split is throwing an error now. Any help here is greatly appreciated!",
+      "likes": 0
+    },
+    {
+      "id": 97981,
+      "title": "How to find notes again in overall flat structure?",
+      "url": "https://forum.obsidian.md/t/how-to-find-notes-again-in-overall-flat-structure/97981",
+      "date": "2025-03-10T19:52:28.832Z",
+      "views": 0,
+      "replies": 7,
+      "full_text": "Hi All I have been using Obsidian for some months now, and have a question in regards to finding notes again. I have setup my Vault in a Zettlekast sense, meaning I wanted to avoid the classical folder structure that we probably all know. In that sense I created an overall structure 00 - Quick Notes (Everything is scratched down here) 01 - Projects (Notes for specific projects that are not completed) 02 - Archive (Completed notes) 03 - Resources (All resources that support a note goes here) 04 - Templates 05 - Tags (Contain two notes that display used tags) 99 - Backlinks (\u2026 Not sure what to call this, it contains for example the explanation of what a Reward is, overall very generalised notes). All my notes contain tags in a footer such as T_Security, T_Network, C_Cooking, C_Book And I can view my unique tags using dataview (plugin). TABLE WITHOUT ID length(rows) as \"Tag count\", join(rows.unique, \", \") as \"Unique tags\" WHERE file.etags FLATTEN file.etags as tag GROUP BY tag WHERE contains(tag, \"#T_\") WHERE !contains(tag, \"#T_ex\") FLATTEN rows.tag[0] as unique GROUP BY true Or I can use a query and search for a specific tag, but is this really the best way? How do you find specific notes again as your vault grows to 100\u2019s or 1.000\u2019s of notes? Please note, as much as possible I avoid community plugins. Thank you in advance Best regards",
+      "likes": 0
+    },
+    {
+      "id": 57490,
+      "title": "Option to get a URL for bookmarks (similar to Copy Obsidian URL)",
+      "url": "https://forum.obsidian.md/t/option-to-get-a-url-for-bookmarks-similar-to-copy-obsidian-url/57490",
+      "date": "2023-04-04T14:57:27.064Z",
+      "views": 0,
+      "replies": 7,
+      "full_text": "Use case or problem currently the command on notes Copy Obsidian URL does not seem to be supported for bookmarks Proposed solution add support to generate the URL to the bookmarks so one can open bookmarks (and bookmarked folders) via links and scripts",
+      "likes": 0
+    },
+    {
+      "id": 84740,
+      "title": "Show existing values in Properties view",
+      "url": "https://forum.obsidian.md/t/show-existing-values-in-properties-view/84740",
+      "date": "2024-07-04T15:15:04.195Z",
+      "views": 0,
+      "replies": 7,
+      "full_text": "Use case or problem Currently, in \u201cAll properties\u201d view, it is possible to see properties that are present in a vault, along with amount of notes that have this property. There is, however, no simple way to find out which values each property has, and how many files has said property. It is possible to find notes that has property with particular value by [\"property\":value] search request. But that is inconvenient since you have to type each property and each value with no suggestions from search query field. image433\u00d7853 17.3 KB image428\u00d7896 15.6 KB Proposed solution Each line in \u201cAll properties\u201d view can become a foldable list, similar to nested tags view. Child lines for each property can be certain value that this property is assigned, with amount of notes that have that property with that value calculated as well. Clicking on property value can trigger search for notes with this property and value using [\"property\":value] query. Maybe, there can also be new property types implemented: \u201cSingle select\u201d and \u201cMultiple select\u201d that can have limited set of possible values configured from settings or \u201cAll properties\u201d view. Maybe, it also makes sense for user to be able to disable that \u201cshow me property values\u201d feature per property, for several reasons. For example, for \u2018aliases\u2019 property it\u2019s going to be a mess and probably such aggregation would be pointless in most situations, and ui is going to be overloaded. And for \u2018tags\u2019 property, it\u2019s going to be similar/identical to \u201cTags view\u201d anyway. Related feature requests help - List or table of all properties and values feature request - Properties search improvement: Value selection as with tag search",
+      "likes": 0
+    },
+    {
+      "id": 70209,
+      "title": "Perplexity.ai plugin",
+      "url": "https://forum.obsidian.md/t/perplexity-ai-plugin/70209",
+      "date": "2023-10-27T15:43:49.114Z",
+      "views": 0,
+      "replies": 7,
+      "full_text": "Perplexity.ai plugin",
+      "likes": 0
+    },
+    {
+      "id": 95208,
+      "title": "Data privacy with Smart Connections?",
+      "url": "https://forum.obsidian.md/t/data-privacy-with-smart-connections/95208",
+      "date": "2025-01-21T16:35:39.492Z",
+      "views": 0,
+      "replies": 7,
+      "full_text": "First, search the help docs and this forum. Maybe your question has been answered! The debugging steps can help, too. Still stuck? Delete this line and proceed. What I\u2019m trying to do Things I have tried I\u2019m not looking for help, I am looking for people\u2019s experiences. I came upon Smart Connections and the author seems to describe an interest in data privacy. I have sensitive data in Obsidian. I am careful to ensure that I only send Obsidian data in privacy-safe ways. Smart Connections seems to be very black-box to me. That is, I can\u2019t see what it is doing. I shut down my network and enabled Smart Connections. If it is all local, then it should be able to function without a network. It seems to do something but I can\u2019t tell what. After that, I disabled the plugin. Is there anyone on the forum with similar interests who has successfully used Smart Connections in this way? Have you been able to determine that it is genuinely local-only in processing? Drew",
+      "likes": 0
+    },
+    {
+      "id": 69285,
+      "title": "Search limited to folder or a group of folders",
+      "url": "https://forum.obsidian.md/t/search-limited-to-folder-or-a-group-of-folders/69285",
+      "date": "2023-10-13T13:04:29.295Z",
+      "views": 0,
+      "replies": 6,
+      "full_text": "First, search the help docs and this forum. Maybe your question has been answered! The debugging steps can help, too. Still stuck? Delete this line and proceed. What I\u2019m trying to do I want to limit the search to a specific folder or to a grupu of folderes e.e. folder and its subfolderes Thank you Things I have tried",
+      "likes": 0
+    },
+    {
+      "id": 53928,
+      "title": "Find note doesn't see Canvases",
+      "url": "https://forum.obsidian.md/t/find-note-doesnt-see-canvases/53928",
+      "date": "2023-02-06T19:53:39.630Z",
+      "views": 0,
+      "replies": 6,
+      "full_text": "When I want to find a canvas in my vault I open the \u201cFind note\u201d explorer. Currently, the \u201cFind note\u201d explorer doesn\u2019t see canvases. I\u2019m not sure if it\u2019s an intended behaviour (because canvas are not exactly notes), but its non-intuitive to me. Obsidian is great! Thanks for creating it.",
+      "likes": 0
+    },
+    {
+      "id": 71931,
+      "title": "Local AI integration?",
+      "url": "https://forum.obsidian.md/t/local-ai-integration/71931",
+      "date": "2023-11-26T06:22:02.551Z",
+      "views": 0,
+      "replies": 6,
+      "full_text": "Hi Does anyone know if there is any kind of AI based integration with models running locally? All the AI assistant plugins I found are to be integrated with ChatGPT etc. I personally would like a locally running solution, I realize one needs a powerful computer for that. But it is more private and won\u2019t cost you money to run locally well except the electricity. There are already a lot of good implementations like Serge etc. I would be very hesitant to feed my personal notes/knowledge base to OpenAI given how controversial some of the outcomes of these tools. You never know what you are training your data with these cloud systems.",
+      "likes": 0
+    },
+    {
+      "id": 84748,
+      "title": "Local and OSS AI powered by everything you've seen, said, or heard, integrated with Obsidian",
+      "url": "https://forum.obsidian.md/t/local-and-oss-ai-powered-by-everything-youve-seen-said-or-heard-integrated-with-obsidian/84748",
+      "date": "2024-07-04T18:42:26.734Z",
+      "views": 0,
+      "replies": 6,
+      "full_text": "hi guys, I wanted to show you how you can chat with an AI that knows everything about your life, everything you\u2019ve seen and said on your computer, within Obsidian: check more details: https://screenpi.pe i did a few examples integrations with obsidian and wants to create deeper integrations in the future happy to help with any questions",
+      "likes": 0
+    },
+    {
+      "id": 101893,
+      "title": "Contextual menu - searchable",
+      "url": "https://forum.obsidian.md/t/contextual-menu-searchable/101893",
+      "date": "2025-06-14T07:54:00.057Z",
+      "views": 0,
+      "replies": 5,
+      "full_text": "Use case or problem Contextual menus are essential but the commands in there grow longer. Not only with plugins but also for default commands. Sometimes I\u2019m struggling to find the right command. Proposed solution One idea could be to make contextual menus editable, so users could decide by themselves what to show Another idea, (and I prefer this one) would be to add a search field on top, which is active by default, so all you had to do, is: Right click to open the contextual menu Type at least 1 to 3 letters to filter menu entries Press enter to confirm Current workaround (optional) None, scrolling through default and plugin entries in contextual menus is time consuming if you don\u2019t memorize roughly where your most used commands are placed in the contextual menu. Related feature requests (optional) None that I know",
+      "likes": 0
+    },
+    {
+      "id": 102401,
+      "title": "Looking for a plugin: Chat sidebar that works with selected text/note (like Cursor IDE, but for notes)",
+      "url": "https://forum.obsidian.md/t/looking-for-a-plugin-chat-sidebar-that-works-with-selected-text-note-like-cursor-ide-but-for-notes/102401",
+      "date": "2025-06-29T09:05:35.008Z",
+      "views": 0,
+      "replies": 5,
+      "full_text": "Hey folks, I\u2019m looking for an Obsidian plugin or setup that gives me a simple sidebar chat interface \u2014 something where I can: Ask questions about the currently selected note or selected text Summarize or modify the note Occasionally generate follow-ups, new notes, etc. Basically, I want something like Cursor AI (from dev/IDE world) but for my Obsidian notes. Important: I don\u2019t want to use an OpenAI API key or pay extra per token. I want to connect my own ChatGPT or Claude account, ideally via browser/session or plugin. I\u2019ve already tried: Smart Connections Copilot for Obsidian ChatGPT MD Unfortunately, none of them fully support this workflow \u2014 they either don\u2019t reference the selected note well, don\u2019t support browser-based accounts, or lack a clean sidebar flow. Has anyone found a plugin or workaround for this? Even better if it works with Claude or ChatGPT web accounts directly. Thanks in advance!",
+      "likes": 0
+    },
+    {
+      "id": 104938,
+      "title": "Add exception to spellcheck for certain formats of words",
+      "url": "https://forum.obsidian.md/t/add-exception-to-spellcheck-for-certain-formats-of-words/104938",
+      "date": "2025-08-29T10:40:49.931Z",
+      "views": 0,
+      "replies": 5,
+      "full_text": "What I\u2019m trying to do I\u2019m trying to add an exception to Obsidian\u2019s spellchecking feature, so that it does not flag strings with alternating letters and numbers as mistakes. Some examples are \u201803b1a12\u2019, \u201802a5\u2019 or \u201802c\u2019. I do not want to manually add an exception for each string that is formatted like this. Things I have tried I have tried to use a CSS snippet under settings &gt; appearance, but I have not understood how to make an exception to the spellcheck that doesn\u2019t turn off spellchecking completely. I feel that there could be potential here. Do you have any suggestions for how I could do this \u2018general exception\u2019 to spellcheck?",
+      "likes": 0
+    },
+    {
+      "id": 58407,
+      "title": "Semantic Search Plugin",
+      "url": "https://forum.obsidian.md/t/semantic-search-plugin/58407",
+      "date": "2023-04-21T07:51:55.082Z",
+      "views": 0,
+      "replies": 4,
+      "full_text": "Hey guys! I have released an initial version of a plugin (also available on the community plugins list) which supports semantic searching throughout your notes. It first processes your notes into sections of text delimited via headings. It then uses OpenAI\u2019s embeddings API to generate embeddings for each block and provides a query modal for you to find similar notes based on cosine similarity. I plan to add support for other ways to delimit sections and improve the overall UI. It is still highly experimental at the moment and feedback is greatly appreciated!",
+      "likes": 0
+    },
+    {
+      "id": 104385,
+      "title": "Bases - how to find notes with not tages",
+      "url": "https://forum.obsidian.md/t/bases-how-to-find-notes-with-not-tages/104385",
+      "date": "2025-08-21T02:13:28.331Z",
+      "views": 0,
+      "replies": 4,
+      "full_text": "I am testing Bases and clean up my vault. How to find notes with no tages. In Bases, the Properties drop down menu permits you to add the column \u201ctags\u201d or \u201cfile tags\u201d. I can see some notes have neither tages nor links. I can select those notes for which there are not links: Filter - File links is empty. How to I do the same for tags is empty?",
+      "likes": 0
+    },
+    {
+      "id": 59593,
+      "title": "How to find notes with same name?",
+      "url": "https://forum.obsidian.md/t/how-to-find-notes-with-same-name/59593",
+      "date": "2023-05-12T03:08:27.753Z",
+      "views": 0,
+      "replies": 4,
+      "full_text": "What I\u2019m trying to do For some sync reasons, there are multiple notes having same name but located in different places in my vault. And unfortunately, there could be many such notes and i don\u2019t know their names. I want to find out the notes whose name is shared by more than one note and check if I should keep all of them or delete the duplicated one(s). Things I have tried I have no clue right now.",
+      "likes": 0
+    },
+    {
+      "id": 55027,
+      "title": "ChatGPT prompt for creating atomic notes",
+      "url": "https://forum.obsidian.md/t/chatgpt-prompt-for-creating-atomic-notes/55027",
+      "date": "2023-02-23T10:25:39.525Z",
+      "views": 0,
+      "replies": 4,
+      "full_text": "Have a productive day! Ask me to input a text, then divide the text I will provide into several atomic notes, each capturing a single, clear narrative idea or concept related to the topic being researched, adhering to the principles of Andy Matuschak's note-taking methodology. Each atomic note must include sufficient detail and information relevant to the topic and meet the following criteria: information relevance, reliability, clear structure, detail, documentation, updating, accessibility, integration with other information, accuracy, and critical evaluation of information. The structure of each atomic note should have two parts: the first part, \"IDEEA,\" must be a narrative text about the main idea or concept, and the second part, \"Details,\" should contain all the details of the main idea or concept. The notes may contain subheadings, bullet points, or enumeration of details if necessary, but each note must not deviate from capturing a single, clear narrative idea and must avoid including multiple ideas or tangential information. Finally, based on the content of each note, suggest a relevant title for each atomic note created, with a maximum length of 70 characters and no symbols or colons.",
+      "likes": 0
+    },
+    {
+      "id": 26784,
+      "title": "AI-assisted google-like search",
+      "url": "https://forum.obsidian.md/t/ai-assisted-google-like-search/26784",
+      "date": "2021-11-08T11:08:16.491Z",
+      "views": 0,
+      "replies": 3,
+      "full_text": "Obsidian already has decent and fast search capabilities, and there are people asking for even more granular search option. But what about natural language search? How much more confident would you be in retrieving relevant notes from the past if you had google to search your notes for you? Related Request: AI Powered Obsidian (May 2020) I think this would actually change not only my behaviour in writing notes \u2014 I would probably write more freely and naturally \u2014 but also my emotional state as I write; I would be less anxious about remembering all the right tags and links in the moment and more confident that I will be able to find this note later via search. As an aside, Mem.ai is working on building this kind of search.",
+      "likes": 0
+    },
+    {
+      "id": 36570,
+      "title": "Multimodal semantic search",
+      "url": "https://forum.obsidian.md/t/multimodal-semantic-search/36570",
+      "date": "2022-04-27T07:57:48.698Z",
+      "views": 0,
+      "replies": 3,
+      "full_text": "I\u2019m the only one who has trouble finding notes in obsidian sometimes? I think I\u2019ll implement a plugin to do semantic search GitHub GitHub - mlfoundations/open_clip: An open source implementation of CLIP. An open source implementation of CLIP. Contribute to mlfoundations/open_clip development by creating an account on GitHub. Example: \u201cshow me the note about brown bears\u201d (the note contains brown bear images and related text)",
+      "likes": 0
+    },
+    {
+      "id": 46769,
+      "title": "Semantic Search and Summarizing Notes",
+      "url": "https://forum.obsidian.md/t/semantic-search-and-summarizing-notes/46769",
+      "date": "2022-11-02T01:51:00.203Z",
+      "views": 0,
+      "replies": 3,
+      "full_text": "Hi All, Given the size of notes in obsidian, I often have trouble recollecting information within the notes and also takes a lot of time summarizing information from multiple documents. I created a solution that can take in markdown files and search within them and also summarize based on a topic. Is this something others would find useful? If yes, I will write-up a plugin for obsidian. Here is a yt demo of what I created: Scratchpad Demo - YouTube",
+      "likes": 0
+    },
+    {
+      "id": 101042,
+      "title": "RAG-based Obsidian to Claude MCP (Self-made)",
+      "url": "https://forum.obsidian.md/t/rag-based-obsidian-to-claude-mcp-self-made/101042",
+      "date": "2025-05-24T00:11:42.702Z",
+      "views": 0,
+      "replies": 3,
+      "full_text": "This is an Obsidian MCP that utilizes RAG, GPU acceleration, HNSW, and multi-query functionality. This tool is designed for heavy users who store and utilize numerous notes in Obsidian. It enables instantaneous semantic search (superior to keyword search) of Obsidian notes and PDFs from Claude. Even Python beginners can easily install it, and detailed installation instructions are provided in the readme. Installation link: (Link insert is not allowed\u2026 why?) Features Core Search Capabilities Hybrid Search Engine: Advanced vector similarity + keyword search fusion Intelligent Semantic Search: High-precision meaning-based document retrieval Adaptive Query Processing: Automatic parameter adjustment based on query complexity Multi-modal Search: Integrated text and attachment file search Contextual Expansion: Related document discovery and context-aware retrieval Advanced AI &amp; RAG Features Hierarchical Retrieval: Document \u2192 Section \u2192 Chunk progressive search Multi-query Fusion: Intelligent combination of multiple search queries with weighted averaging, maximum value, and reciprocal rank fusion Adaptive Chunk Retrieval: Dynamic chunk size adjustment based on query complexity Knowledge Graph Exploration: Vector similarity-based connection discovery with BFS traversal and graph centrality ranking Temporal-aware Search: Balance between relevance and recency with time-weighted scoring Advanced Metadata Filtering Complex Tag Logic: AND/OR/NOT combinations for sophisticated tag-based filtering Time Range Filtering: Precise temporal document filtering File Type &amp; Quality Filtering: Content quality assessment and file type categorization Multi-dimensional Filtering: Simultaneous application of multiple filter criteria Performance Optimization GPU/CPU Auto-selection: Hardware-optimized index selection (GPU_IVF_FLAT, GPU_CAGRA, HNSW) HNSW Index Optimization: Dynamic parameter tuning (ef, nprobe) based on collection size Real-time Performance Monitoring: Live performance tracking and analysis Adaptive Search Parameters: Result quality-based parameter dynamic adjustment Batch Processing Optimization: Efficient large-scale search operations System Intelligence Auto-tuning: Collection size-based automatic parameter optimization Performance Benchmarking: Multi-strategy search performance comparison Smart Recommendations: Automatic optimization suggestions based on usage patterns Resource Management: Intelligent memory and GPU utilization Integration &amp; Connectivity Claude Desktop Integration: Seamless connection via FastMCP protocol Real-time File Monitoring: Automatic change detection and incremental reindexing Multilingual Support: Advanced embedding models for global language support Container-based Deployment: Reliable Podman-based Milvus deployment",
+      "likes": 0
+    },
+    {
+      "id": 100876,
+      "title": "Developing Obsidian RAG Search Plugin (Beta)",
+      "url": "https://forum.obsidian.md/t/developing-obsidian-rag-search-plugin-beta/100876",
+      "date": "2025-05-20T07:06:23.558Z",
+      "views": 0,
+      "replies": 3,
+      "full_text": "Hello! I\u2019m currently working on a beta version of an Obsidian plugin that adds Retrieval-Augmented Generation (RAG) search to your notes. This is still an experimental build, so only the most basic features are available. I\u2019d love to hear your ideas or feature requests\u2014what would you like to see? Current Features (Basic) Ask questions to your vault\u2019s notes using RAG Shard splitting for very large vaults Manual reindexing Planned Features Saving and threading chat history Filtering by specific folders or tags Displaying source documents auto indexing If you\u2019d like to try it out, clone the repository into your vault\u2019s .obsidian/plugins folder and build it. Please leave a comment here or open an issue in the repo to share your feedback! GitHub Repository: https://github.com/tomoya-oki/obsidian-rag-search-plugin",
+      "likes": 0
+    },
+    {
+      "id": 69292,
+      "title": "Curated RAG - LLM Chatbot based on Obsidian knowledge graphs",
+      "url": "https://forum.obsidian.md/t/curated-rag-llm-chatbot-based-on-obsidian-knowledge-graphs/69292",
+      "date": "2023-10-13T14:24:33.452Z",
+      "views": 0,
+      "replies": 3,
+      "full_text": "Hi! I\u2019ve been looking for a way to document my open innovation projects, and I am pretty exited about using obsidian along with this python script hooked up to OpenAI API. I\u2019ve started documenting the project inside the vault on github, so head over there if you want more info! https://github.com/circularmachines/CuratedRAG PLEASE ASK ME QUESTIONS! I\u2019m planning to do a youtube thing where I add questions (or queries to be precise) and try to make the bot respond to them",
+      "likes": 0
+    },
+    {
+      "id": 41713,
+      "title": "Managing tags - reducing contextual search output",
+      "url": "https://forum.obsidian.md/t/managing-tags-reducing-contextual-search-output/41713",
+      "date": "2022-08-12T00:22:14.808Z",
+      "views": 0,
+      "replies": 3,
+      "full_text": "Things I have tried What I\u2019m trying to do I have a large tagging system for notes supporting a book I am writing. For example within a note entitled \u201c2019 Watson, T. J.\u201d I have the following tags &gt; Tags #computer_security #computer_security/insurance #computer_security/threats/phishing #computer_security/threats/ransomware #computer_security/threats/malware #risk_management When I do a search for tag:#computer_security/insurance the following appears: V 2019 Watson, T.J. Tags #computer_security #computer_security/insurance #computer_security/threats/phishing #computer_security/threats/ransomware #computer_security/threats/malware #risk_management #computer_security/insurance is highlighted. The problem is that when you have hundreds of files the search panel becomes cluttered and hard to manage with all these other tags being displayed in teh search result. Is there some way that it just shows: 2019 Watson, T.J. or even V 2019 Watson, T. J. #computer_security/insurance The other issue is that if you also have the tag mentioned later in the notes for the 2019 Watson, T. J. document it displays a large section of contextual text. For example: Insurance #computer_security/insurance Malpractice or general liability policies may not cover loss of data due to fraud or computer security breach. Monetary loss may be high, costs of experts, trading downtime, possible ransom payments, reputational damage, client law suits. \u201cThe provider will be able to provide recommendations on steps to take and experts to contact to assist your firm in navigating the complexities of handling a breach.\u201d p 57 [[14.05 Insurance]] Once again this clutters up the search panel. Perhaps it is just the same problem - too much contextual text around the search results. Does anyone have any suggestions on how to avoid this?",
+      "likes": 0
+    }
+  ]
+}

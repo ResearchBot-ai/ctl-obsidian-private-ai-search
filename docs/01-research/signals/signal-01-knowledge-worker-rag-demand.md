@@ -3,9 +3,9 @@ title: "signal-01-knowledge-worker-rag-demand"
 artifact_type: "signal"
 signal_type: "user-research"
 signal_category: "bibliographic"
-lifecycle_state: "ingested"
-version: "1.0"
-confidence: 0.55
+lifecycle_state: "trusted"
+version: "2.0"
+confidence: 1.00
 created: "2025-11-23"
 last_updated: "2025-11-23"
 source:
